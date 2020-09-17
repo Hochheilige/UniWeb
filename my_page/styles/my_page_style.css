@@ -4,6 +4,10 @@ body {
     font-family: monospace;
 }
 
+.clear {
+    clear: both;
+}
+
 .page_wrapper {
     width: 960px;
     margin: 0 auto;
@@ -35,7 +39,7 @@ body {
 
 .page_wrapper .white .menu a {
     padding: 0px 10px;
-    color: #0969A2;
+    color: black;
     text-decoration: none;
 }
 
@@ -44,5 +48,57 @@ body {
 }
 
 .page_wrapper .white .title {
-    
+    margin: 60px 0px;
+    border-bottom: 1px solid darkorange;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.page_wrapper .white .content_about_me {
+    padding-bottom: 30px;
+    border-bottom: 1px solid darkorange;
+}
+
+.page_wrapper .white .content_about_me .my_img {
+    float: left;
+    width: 40%;
+    padding: 0px 20px 0px  0px;
+    box-sizing: border-box;
+}
+
+.page_wrapper .white .content_about_me .my_img img {
+    width: 100%;
+}
+
+.page_wrapper .white .content_about_me .text_about_me {
+    float: right;
+    width: 60%;
+    font-size: 12px;
+}
+
+.page_wrapper .white .content_about_me .text_about_me .few_words {
+    background-color: black;
+    color: darkorange;
+    font-size: 20px;
+    padding: 10px;
+    width: 45%
+}
+
+.page_wrapper .white .content_about_me .text_about_me .quote {
+    padding: 15px;
+    background-color: orange;
+}
+
+.page_wrapper .white .content_about_me .text_about_me .quote p:first-child {
+    font-style: italic;
+}
+
+.page_wrapper .white .content_about_me .text_about_me .quote p:last-child {
+    text-align: right;
+}
+
+.page_wrapper .white .skills {
+    padding: 30px 0px;
+    border-bottom: 1px solid darkorange;
 }
