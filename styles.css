@@ -1,0 +1,8 @@
+body {
+    margin: 0px;
+}
+div {
+    border: 1px solid black;
+    margin: 20px 30px 20px 30px; /*top right bottom left*/;
+    margin-top: 0;
+}
