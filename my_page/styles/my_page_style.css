@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    background-color: darkorange;
+    font-family: monospace;
+}
+
+.page_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.page_wrapper .white {
+    background-color: #ffffff;
+    padding: 30px 30px 10px 30px;
+}
+
+.page_wrapper .black {
+    background-color: black;
+    color: white;
+    padding: 10px 30px 30px 30px;
+}
+
+.page_wrapper .white .head {
+    font-size: 30px;
+    color: darkorange;
+}
+
+.page_wrapper .white .menu {
+    margin-top: 30px;
+    text-align: right;
+    border-bottom:1px solid darkorange;
+    padding-bottom: 10px;
+}
+
+.page_wrapper .white .menu a {
+    padding: 0px 10px;
+    color: darkorange;
+    text-decoration: none;
+}
