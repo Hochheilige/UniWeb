@@ -2,20 +2,66 @@
 <html>
     <head>
         <meta charset = "utf-8"/>
+        <!--Block type - Means that element takes up 100% of the width-->
         <title>
-            Block Type! <!--Means that element takes up 100% of the width-->
+            Block Type! 
         </title>
         <link rel = "stylesheet" href = "styles.css"/>
     </head>
     <body>
-        <div>
+        <div class = "relative">
             Block_1
         </div>
-        <div>
+        <div class = "absolute">
             Block_2
         </div>
-        <div>
+        <div class = "fixed">
             Block_3
         </div>
+
+        <div class = "relative parent_block">
+            Relative_block
+            <div class = "absolute block1">
+                Absolute_1_Block
+            </div>
+
+            <div class = "absolute block2">
+                Absolute_2_Block
+            </div>
+        </div>
+
+        <div class = "parent_float">
+            <div>
+                Что такое Lorem Ipsum?
+Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+            </div>
+            
+            <div>
+                Block_1
+            </div>
+            
+            <div>
+                Block_2
+            </div>
+            
+            <div>
+                Block_3
+            </div>
+            
+            <div>
+                Block_4
+            </div>
+            
+            <div>
+                Block_5
+            </div>
+            
+            <div>
+                Block_6
+            </div>
+            <div class = "clear"></div>
+        </div>
+
+        
     </body>
 </html>
