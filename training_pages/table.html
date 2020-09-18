@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Table</title>
+        <meta charset="utf-8"/>
+
+        <link rel="stylesheet" href ="style_table.css">
+        <!-- Для описания стилей
+        <style> 
+            td, th, table {
+                border: 1px black solid
+            }
+        </style>
+        -->
+
+        <!--
+        <style>
+            table:first-of-type {
+                border: 1px black solid
+            }
+
+            table:first-of-type td {
+                border: 1px rebeccapurple solid
+            }
+
+            table:first-of-type th {
+                border: 2px green solid
+            }
+
+            table a {
+                color: green
+            }
+        </style>
+        -->
+        
+        
+       
+        
+    </head>
+
+    <body>
+        <h1>First Table</h1> <!-- Следующий элемент не перейдет на следующую строку потому что х1 это блочный элемент-->
+
+        <ul>
+            <li>
+                <a href="index.html">First Page</a>
+            </li>
+        </ul>
+
+        <table id = "table1">
+            <thead>
+                <tr>
+                    <th colspan="4">Header of table</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr> <!--Row-->
+                    <td rowspan="3">First Cell First Cell Long Cell</td>
+                    <td>HMMMMMMMMM</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>TAble in table</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <div>
+                            <a class = "pink" href="#">Link</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr> <!--Row-->
+                    <td>First Cell First Cell Long Cell</td>
+                    <td>HMMMMMMMMM</td>
+                    <td>
+                        <div>
+                            <a class = "pink" href="#">Link</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+                <tfoot>
+                <tr>
+                    <td>Second Cell</td>
+                    <td>
+                        <div>
+                            <a class = "pink bold centr" href="#">Link</a>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td class ="pink bold center">Cell in new Table</td>
+                <td>Second cell in new table</td>
+            </tr>
+        </table>
+    </body>
+</html>
