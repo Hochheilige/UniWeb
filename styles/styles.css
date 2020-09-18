@@ -2,3 +2,9 @@
     font-size: 40px;
     text-align: center;
 }
+
+.quote {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
