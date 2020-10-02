@@ -102,3 +102,9 @@ body {
     padding: 30px 0px;
     border-bottom: 1px solid darkorange;
 }
+
+.page_wrapper .white .skills .my_skills,
+.page_wrapper .white .skills .abilites {
+    padding: 30px 0px;
+    border-bottom: 1px solid darkorange;
+}

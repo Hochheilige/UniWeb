@@ -1,10 +1,58 @@
+body {
+    margin: 0px;
+    background-color: darkorange;
+}
+
+.main_page {
+    text-align: center;
+    font-family: cursive;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
 .page_title {
     font-size: 40px;
-    text-align: center;
+    font-family: fantasy;
+    margin: 10px;
+    border-bottom:1px solid darkorange;
 }
 
 .quote {
     font-size: 30px;
+}
+
+.tasks {
+    display: flex;
+}
+
+.block {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 30px;
+    border: 1px solid black;
+    background-color:darkorange;
+    width:100%;
+}
+
+.block .title {
+    font-weight: bold;
+}
+
+.block a {
+    padding: 10px;
+}
+
+.advertising {
     text-align: center;
     font-family: cursive;
+    width: 960px;
+    height: 400px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.advertising .title {
+    color: whitesmoke;
 }

@@ -1,0 +1,62 @@
+.main_block {
+    margin: 150px auto;
+
+    padding: 10px 50px;
+
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.main_block .block_tarrife {
+    display:flex; 
+    flex-direction: column;
+}
+
+
+.main_block .block_tarrife .tarrife .block {
+    padding: 20px;
+    float: left;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+.main_block .block_tarrife .tarrife .block .name {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.main_block .block_tarrife .tarrife .block .price {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.main_block .block_tarrife .tarrife .block .button {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.main_block .block_tarrife .tarrife .block .button a {
+    margin: 0 auto;
+    width: 200px;
+    padding: 15px;
+    border: 1px solid red;
+    background-color: tomato;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .main_block {
+        width: 800px;
+    }
+}
