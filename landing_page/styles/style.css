@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section .body_element{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section .menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+}
+
+ .menu a{
+     font-weight: bold;
+ }
+
+.main {
+    background-image: url(../img/hero_cofe.webp);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 750px;
+}
