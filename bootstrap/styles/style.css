@@ -1,3 +1,26 @@
-.my_img {
-    width:100%
+.ul_nav{
+    list-style-type: none;
+    padding: 0px;
+    margin: 30px;
+}
+
+.ul_nav_right {
+    text-align: right;
+}
+
+.ul_nav_right div{
+    display: inline;
+}
+
+.ul_nav div{
+    display: inline;
+}
+
+.logo{
+    width: 30%;
+    height: 30%;
+}
+
+.img {
+    width: 100%;
 }

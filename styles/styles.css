@@ -42,6 +42,7 @@ body {
 
 .block a {
     padding: 10px;
+    color: black;
 }
 
 .advertising {
@@ -51,6 +52,7 @@ body {
     height: 400px;
     margin: 10px auto;
     border: 1px solid black;
+    background-image: url(../img/taz.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,6 +60,11 @@ body {
 
 .advertising .title {
     color: whitesmoke;
+    font-size: 25px;
+}
+
+.advertising .link a {
+    color: darkorange;
     font-size: 25px;
 }
 

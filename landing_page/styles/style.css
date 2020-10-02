@@ -29,3 +29,8 @@ body {
     background-repeat: no-repeat;
     height: 750px;
 }
+
+.my_img {
+    width: 20%;
+    height: 20%;
+}
