@@ -8,68 +8,111 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
-    <title>DeathStarBucks by Pavel Ovchinnikov</title>
+    <title>Everlasting Summer by Pavel Ovchinnikov</title>
   </head>
   <body>
-    <div class="section menu">
-        <div class="body_element">
-            <div class="container p-3 mb-2 bg-transparent">
-                <div class="row row-cols-6">
-                    <img src='img/logo.png' class="my_img rounded-float-right">
-                    <div class="col-md">
-                        <a class="text-dark" href = "#main">Main</a>
+      <audio autoplay>
+          <source src="audio/everlasting_summer_03 - A Promise From Distant Days.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает воспроизведение музыки
+      </audio>
+      <div class="menu">
+          <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #12111b;">
+                  <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ToggleNavigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav w-100 justify-content-center">
+                        <a class="nav-item nav-link active" href="#">Главная <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">О нас</a>
+                        <a class="nav-item nav-link" href="#">Продукция</a>
+                        <a class="nav-item nav-link" href="#">Видео</a>
+                        <a class="nav-item nav-link" href="#">Арты</a>
+                        <a class="nav-item nav-link" href="#">Контакты</a>
+                      </div>
+                  </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="main" style="background-image: url(img/bg.png);">
+            <div class="container-fluid pad_main">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="container logo"> 
+                            <img src="img/logo-text-removebg-preview.png" alt="Everlasting Summer" class="w-100">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="img/background_day.jpg" alt="Road Day" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/background_evening.jpg" alt="Road Evening" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/background_night.jpg" alt="Road Night" class="d-block w-100">
+                        </div>
                     </div>
-                    <div class="col-md">
-                        <a class="text-dark" href = "#about">About</a>
+                    <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="about">
+        <div class="container-fluid pt-5 text-light" style="background-image: url(img/bg.png);">
+            <p class="text-center font-weigth-bold head_text_about">О нас</p>
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <p class="text-center font-weigth-bold head_text pt-5">Об игре</p>
+                    <div class="text-center font-weight-light">
+                        Бесконечное лето – это визуальная новелла от российских разработчиков, дарящая самые искренние и светлые переживания об ушедших днях и надеждах, которым ещё предстоит сбыться.
+                        Встретив на улице Семена, главного героя игры, вы бы никогда не обратили на него внимания – действительно, подобных людей в каждом городе тысячи и даже сотни тысяч. Но однажды с ним приключается совершенно необычное происшествие: он засыпает зимой в автобусе, а просыпается... посреди жаркого лета. Перед ним – пионерлагерь «Совенок», а позади – прошлая жизнь. Чтобы разгадать, что же с ним случилось, Семену придется получше узнать местных обитателей (а может, даже встретить любовь), разобраться в лабиринтах сложных человеческих взаимоотношений и своих собственных проблемах, решить загадки лагеря. И главное – как вернуться обратно или не возвращаться вовсе?            
                     </div>
-                    <div class="col-md">
-                        <a class="text-dark" href = "#product">Product</a>
-                    </div>                   
-                    <div class="col-md">
-                        <a class="text-dark" href = "#photo">Photo</a>
                     </div>
-                    <div class="col-md">
-                        <a class="text-dark" href = "#contact_form">Contacts</a>
+                <div class="col-sm-6 col-md-4 col-lg-4 ">
+                    <p class="text-center font-weigth-bold head_text pt-5">О жанре</p>
+                    <div class="text-center font-weight-light">
+                        Жанр визуальных романов берет начало из Японии, где и сейчас производят больше всего графических новелл. Главное отличие таких игр — упор на сюжет и его описание в текстовом виде. Как правило, игрок наблюдает историю от первого лица, а происходящее рассказывается протагонистом. Зачастую главный герой не имеет озвучки, тогда как все остальные персонажи озвучены. Так же игрок может иметь возможность самостоятельно дать герою имя и даже выбрать его пол. Внешность протагониста обычно есть только на CG-артах - хорошо прорисованных изображениях, сделанных специально для особо важных моментов игры - либо же в полноценных анимациях(кат-сценах). В остальное время игрок видит перед собой фоны локаций с наложенными на них изображениями персонажей, с которыми идет взаимодействие, или же только изображение фона, если герой в этот момент один, либо не видит перед собой собеседника. Обычно в визуальных новеллах есть множество различных концовок, которые игрок может открыть посредством выборов, дающихся на протяжении игры несколько раз. Это еще одна отличительная черта жанра.
                     </div>
-                 </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <p class="text-center font-weigth-bold head_text pt-5">Отзывы</p>
+                    <div class="text-center font-weight-light">
+                        Игра получила хорошие отзывы российских игровых критиков. Рецензент сайта ITN Daily назвал игру «приятной неожиданностью». Эдвард Чедвик с сайта Kanobu.ru высоко оценил сюжет, художественное оформление и саундтрек игры. Единственным недостатком Чедвик называл сильный диссонанс по качеству отдельных рисунков с фонами и спрайтами. Оксана Алексеенко из Ferra.Ru включила игру в список «20 самых примечательных игр русских разработчиков». Дмитрий Рябов с сайта Appleinsider.ru рекомендует ознакомиться с игрой «ради удовлетворения собственного любопытства» и полагает, что после «вы уже не сможете оторваться» от игр подобного жанра. Англоязычный сайт Thumbsticks расценил историю как не имеющую глубины и смысла и назвал протагониста глупым и слабым. Также он посчитал недостатком то, что элементу мистики в сюжете практически не уделяется внимания, и отметил ошибки в переводе на английский язык.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="section main">
-        <div class="body_element">
-            
-        </div>
-    </div>
-    <div class="section about">
-        <div class="body_element">
-            
-        </div>
-    </div>
+
     <div class="section product">
-        <div class="body_element">
-            
-        </div>
     </div>
+
     <div class="section video">
-        <div class="body_element">
-            
-        </div>
     </div>
+
     <div class="section photo">
-        <div class="body_element">
-            
-        </div>
     </div>
+
     <div class="section contact_form">
-        <div class="body_element">
-            
-        </div>
     </div>
+
     <div class="section footer">
-        <div class="body_element">
-            
-        </div>
     </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
