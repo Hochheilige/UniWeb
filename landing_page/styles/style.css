@@ -1,12 +1,3 @@
-.pad_main {
-    padding: 0;
-}
-
-.logo{
-    position: absolute;
-    z-index: 1;
-}
-
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 50px;
@@ -19,4 +10,15 @@
 
 .head_text{
     font-size: 45px;
+}
+
+.photo a img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.photo a {
+    text-decoration: none;
+    outline: none;
 }
